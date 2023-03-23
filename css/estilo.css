@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+ }
+body{
+   background-color: rgb(113, 221, 113);
+}
+img{
+align-items: flex-end;
+}
+h3{
+   text-align: center;
+}
+.p1{
+   text-align: right;
+}
