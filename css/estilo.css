@@ -1,15 +1,44 @@
-h1{
-    text-align: center;
- }
+.siteHeader{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+}
+.siteHeader .logo img{
+   width: 150px;
+   height: auto;
+}
+
+.siteHeader .menu ul {
+   display: flex;
+   list-style: none;
+}
+
+.siteHeader .menu ul li {
+margin: 0 20px;
+}
+
+.siteHeader .menu ul li a{
+text-decoration: none;
+background-color: rgb(24, 107, 24);
+color: white;
+padding: 5px 15px;
+border-radius: 20px;
+}
+
+
+
+
 body{
    background-color: rgb(113, 221, 113);
+   
 }
 img{
 align-items: flex-end;
 }
-h3{
-   text-align: center;
-}
-.p1{
-   text-align: right;
+.grid-container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+text-align: center;
 }
