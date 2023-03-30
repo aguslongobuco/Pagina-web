@@ -1,1 +1,8 @@
-/*# sourceMappingURL=main.css.map */
+.grabados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grabados .txt {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

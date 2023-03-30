@@ -35,6 +35,7 @@ align-items: flex-end;
 }
 
 .grid-container{
+   gap: 50px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
@@ -51,8 +52,26 @@ height: 350px;
    font-size: 30px;
 }
 
-#historia {
+#grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
 text-align: center;
+}
+
+.grabados {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 25px;
+   gap: 60px;
+
+   }
+   
+.grabados .txt
+   {
+      text-align: center;
+   }
+
+.grabados .img img {
+   width: 100%;
+   height: auto;
 }
