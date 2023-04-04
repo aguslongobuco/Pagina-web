@@ -36,7 +36,7 @@ align-items: flex-end;
 }
 
 .grid-container{
-   gap: 50px;
+gap: 10px;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
@@ -44,7 +44,7 @@ text-align:center;
 }
 
 .grid-container img {
-width: 100%;
+width: 95%;
 height: 350px;
 }
 
@@ -73,10 +73,24 @@ text-align: center;
    }
 
 .grabados .img img {
-   width: 100%;
+   width: 95%;
    height: auto;
 }
 
 body {
    font-family: 'Domine', serif;
+   font-size: medium;
+}
+
+.grid-container .formulario li a {
+text-decoration: none;
+background-color: rgb(24, 107, 24);
+color: white;
+padding: 5px 15px;
+border-radius: 20px;
+}
+
+footer {
+   background-color: rgb(24, 107, 24);
+   color: white;
 }
